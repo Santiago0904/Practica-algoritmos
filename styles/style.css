@@ -465,3 +465,152 @@ hr{
     margin-left: 50px;
     margin-top: 50px;
 }
+
+@media screen and (max-width:480px){
+    .menu p {
+        margin: 0 16px;
+    }
+
+    .sec-one-div-one img{
+        max-width: 470px ;
+        max-height: 10%;
+    }
+
+    .sec-one-div-two{
+        margin-left: 0px;
+        font-size: 60px;
+    }
+
+    .sec-one{
+        flex-direction: column;
+    }
+
+    .big {
+        margin-top: 400px;
+        width: 90%;
+        height: 750px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sec-two-div-one{
+        position: relative;
+        left: 25%;
+    }
+
+    .sec-two-div-two {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec-three{
+        margin-top: 850px;
+        height: 700px;
+    }
+
+    .sec-three-div-one {
+        margin-top: -100px;
+        margin-left: 0px; 
+    }
+
+    .sec-three-title {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .sec-three-text {
+        width: 35.5%;
+        margin-top: 15px;
+    }
+
+    .sec-three-div-two {
+        position: relative;
+        left: 17%;
+        margin-top: -200px;
+    }
+
+    .sec-three-div-two {
+        left: 39%;
+        margin-top: -257px;
+    }
+
+    .sec-three-div-two img{
+        width: 60%;
+    }
+
+    .big-sec-four{
+        flex-direction: column;
+    }
+    
+    .sec-four-div-one img{
+        width: 100%;
+    }
+
+    .sec-four-div-two img{
+        width: 65%;
+        left: 60px;
+        top: 38px;
+    }
+    .sec-four-title {
+        font-size: 35px;
+    }
+    
+    .sec-five img {
+        width: 100%;
+    }
+
+    .sec-six{
+        flex-direction: column;
+    }
+
+    .sec-six img{
+        width: 100%;
+        margin-top: 500px;
+    }
+
+    .sec-six-title{
+        width: 100%;
+    }
+
+    .sec-six-text{
+        width: 150%;
+    }
+
+    .sec-seven{
+        margin-top: 400px;
+        flex-direction: column;
+    }
+
+    .sec-seven img{
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .sec-seven-title {
+        font-size: 40px;
+        width: 100%;
+        margin-top: 500px;
+    }
+
+    .sec-eight{
+        margin-top: 700px;
+        flex-direction: column;
+    }
+
+    .sec-eight-div-one {
+        width: 90%;
+    }
+
+    .sec-eight-div-two {
+        width: 100%;
+    }
+
+    .sec-nine img{
+        width: 100%;
+    }
+
+    .sec-eight-div-two button{
+        margin-left: 35%;
+        margin-right: auto;
+    }
+}
